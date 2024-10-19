@@ -14,4 +14,4 @@ jobs:
           MY_SITE: https://umami.sponge.eu.org/api/websites
           MY_ACCEPT: 'Accept: application/json'
           MY_AUTHOR: 'Authorization: Bearer 05VJs2P+hrCUk6cLA8PoSsDKXVdsIPXVD1PZHiTaOTncOB6PgztmO1ztZ0bgFhYLFdZdo0ENNIEWNIx5PLPD8qYxqo5qOkPT2lTuGmCx5OgNCOg/NS5yBk6MtBtSSLQ2zC1jtHHPNr3OXerjJtXsOGE2L296Oj+CRGO/zpCHT5L/+Mfp0nm88Q5O0NQenVVGNlR6qRblPJl6CzHbXB+ZSWLdDA+zQWqxjdoPdIKSHW6tTo3AivWWI8ULI6sU0EO5MWaFIfZJk69vzGv5QEUl09ZxEXq8gB/6VjGFz+Ox4o7IRXRr6fBkkoWmF4upQDYDquuApg3BVTggVyLW01+59OIv6WNjq8hxxg=='
-        run: curl $MY_SIZE -H '$MY_ACCEPT' -H '$MY_AUTHOR'
+        run: curl $MY_SITE -H '$MY_ACCEPT' -H '$MY_AUTHOR'
